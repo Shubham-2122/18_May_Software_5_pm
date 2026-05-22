@@ -1,0 +1,12 @@
+Github.com 
+
+Github :  userName  / email
+
+Repo /resp ,floder : Public , private
+
+Process : 
+1) drag drop : 
+2) desp 
+3) git bash :  local machinedata file github.com
+
+Repo : Software_Engg
