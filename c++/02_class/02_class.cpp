@@ -3,9 +3,11 @@ using namespace std;
 
 class Student{
 	private:
+//		data memeber
 		int marks;
 		string name;
 	public:
+//		member function
 		void putdata(){
 			cout<<"Enter your Name : ";
 			cin>>name;
