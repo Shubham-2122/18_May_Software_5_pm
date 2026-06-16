@@ -15,15 +15,18 @@ class Child : public Perent{
 		}
 };
 
+
 int main()
 {
 	Child ob;
 	
 	ob.display();
 	ob.display();
-	ob.display();
 	
-//	scope resolution : prenet call and function call
+//	ob.display();
+//	ob.display();
+//	
+////	scope resolution : prenet call and function call
 	ob.Perent::display();
 	
 	return 0;

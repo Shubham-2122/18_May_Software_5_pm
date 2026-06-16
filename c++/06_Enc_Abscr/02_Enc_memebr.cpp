@@ -10,10 +10,7 @@ using namespace std;
 class Perent{
 	protected:
 		int a = 10;
-//	public:
-//		void show(){
-//			cout<<"A : "<<a;
-//		}
+	}
 };
 
 class Child : public Perent{

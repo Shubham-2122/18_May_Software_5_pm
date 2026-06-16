@@ -20,7 +20,7 @@ int main()
 	
 	ab.display(10);
 	ab.display(20,20);
-	ab.display(30,40);
+	ab.display(30.5,40.5);
 	
 	return 0;
 }
