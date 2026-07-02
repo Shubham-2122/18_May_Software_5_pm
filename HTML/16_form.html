@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- parrtem []{} -->
+
+    <form action="">
+         <div>
+            <label for="">Enter your Name</label>
+            <!-- <input type="text" pattern="[A-Za-z]+" required placeholder="Enter your name" > -->
+              <input type="text" pattern="[A-Za-z]{3,8}" required placeholder="Enter your name" >
+        </div>
+        <div>
+            <label for="">Enter your surname</label>
+            <input type="text" pattern="[A-Za-z]{3,8}" required placeholder="Enter your Surname">
+        </div>
+        <div>
+            <!-- shubhajadav05@gmail.com -->
+            <label for="">Enter your email</label>
+            <input type="email" required placeholder="Enter your Email">
+        </div>
+        <div>
+            <label for="">Enter your mobile</label>
+            <input type="tel" pattern="[6-9][0-9]{9}" maxlength="10" required placeholder="enter your number">
+        </div>
+        <div>
+            <label for="">Enter your password</label>
+            <input type="password" pattern="[A-Z][a-z0-9]{8,12}" required placeholder="Enter your password">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
